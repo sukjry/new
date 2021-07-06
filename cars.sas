@@ -1,7 +1,7 @@
 proc print data=sashelp.cars;
-   var Make Model;
-   title 'Sale Type for Each Country';
-   footnote '*Reduced prices in Dollars';
+   var Make Model Horsepower;
+   title 'Price Per Unit and Sale Type for Each Country';
+   footnote '*Reduced prices in dollars';
 run;
 
  
