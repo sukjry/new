@@ -1,7 +1,7 @@
 proc print data=sashelp.cars;
-   var Horsepower fuel brand power;
+   var Horsepower ;
    title 'Price Per Unit and Sale Type for Each Country';
-   footnote '*dollars';
+   footnote '*Prices are in US dollars';
 run;
 
  
